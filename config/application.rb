@@ -18,6 +18,7 @@ Bundler.require(*Rails.groups)
 
 module EJM
   class Application < Rails::Application
+    config.action_controller.permit_all_parameters = true
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.1
 
@@ -27,5 +28,6 @@ module EJM
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+    
   end
 end

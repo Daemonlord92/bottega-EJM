@@ -1,16 +1,8 @@
-<h1>3JMCoding</h1>
-<%= link_to "Blogs", (blogs_path) %>
-<%= link_to "Rails", (rails_items_path) %>
-<%= link_to "Python", (python_items_path) %>
-<% if current_user %>
-  <%= link_to "Logout", (destroy_user_session_path), method: :delete %>
-<% else %>
-  <%= link_to "Register", new_user_registration_path %>
-  <%= link_to "Login", new_user_session_path %>
-<% end %>
-<h1>Blog post</h1>
+<h3>Hi, <%= current_user.first_name%></h3>
+
+<h2>Blog post</h2>
 <%= @posts.inspect %>
 
-<h1>Skill</h1>
+<h2>Skill</h2>
 <%= @skills.inspect %>
 
