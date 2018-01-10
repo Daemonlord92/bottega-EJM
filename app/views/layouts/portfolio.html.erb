@@ -10,8 +10,10 @@
   </head>
 
   <body>
-      <h1><%= link_to "3JMCoding", (root_path) %></h1>
-      <%= render "shared/navbar" %>
+      <div class="nav-logo">
+          <h1><%= link_to "3JMCoding", (root_path) %></h1>
+      </div>
+      <%= render "shared/navbar", location: 'top'%>
       </div>
       <p class="notice"><%= notice %></p>
       <p class="alert"><%= alert %></p>   

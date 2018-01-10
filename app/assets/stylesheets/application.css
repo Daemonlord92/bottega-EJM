@@ -3,3 +3,10 @@
 html{
     font-family: 'Vollkorn SC', serif;
 }
+
+top a {
+    top: 15%;
+    margin-right: 25%;
+    padding: 10px;
+    
+}

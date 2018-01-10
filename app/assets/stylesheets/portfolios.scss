@@ -5,6 +5,19 @@
 
 html{
     font-family: 'Vollkorn SC', serif;
+    background-color: lightslategray;
+    color: antiquewhite;
+}
+
+.top a {
+    margin-right: 5%;
+    padding: 10px;
+    color: antiquewhite;
+    width: 80%;
+}
+.top a::visit {
+    color: antiquewhite;
+
 }
 
 div ul li{

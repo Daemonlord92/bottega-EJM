@@ -10,13 +10,15 @@
   </head>
 
   <body>
-      <h1><%= link_to "3JMCoding", (root_path) %></h1>
+      <div class="nav-logo">
+          <h1><%= link_to "3JMCoding", (root_path) %></h1>
+      </div>
       <p class="notice"><%= notice %></p>
       <p class="alert"><%= alert %></p>   
       
     <%= yield %>
     
-      <%= render "shared/navbar" %>
+      <%= render "shared/navbar", location: 'bottom' %>
       <hr>
       
     <% if session[:source] %>
