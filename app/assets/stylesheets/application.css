@@ -2,11 +2,12 @@
 
 html{
     font-family: 'Vollkorn SC', serif;
+    background-color: darkslategrey;
 }
 
-top a {
+.top a {
     top: 15%;
-    margin-right: 25%;
+    margin-right: 5%;
     padding: 10px;
     
 }
