@@ -1,23 +1,23 @@
 // Place all the styles related to the Portfolios controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import 'bootstrap';
+
 @import url('https://fonts.googleapis.com/css?family=Vollkorn+SC');
 
-html{
+body{
     font-family: 'Vollkorn SC', serif;
     background-color: lightslategray;
-    color: antiquewhite;
+    
 }
 
 .top a {
+    top: 15%;
     margin-right: 5%;
-    padding: 10px;
-    color: antiquewhite;
-    width: 80%;
+    padding: 5px;
     text-decoration: none;
 }
 .top a::visit {
-    color: antiquewhite;
 
 }
 

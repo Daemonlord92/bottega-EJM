@@ -1,9 +1,10 @@
 // Place all the styles related to the Blogs controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import 'bootstrap';
 @import url('https://fonts.googleapis.com/css?family=Vollkorn+SC');
 
-html{
+body{
     font-family: 'Vollkorn SC', serif;
     background-color: lightslategrey;
     color: antiquewhite;
