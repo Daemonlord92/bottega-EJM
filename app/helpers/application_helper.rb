@@ -13,4 +13,9 @@ module ApplicationHelper
         class: "source-greeting")
     end 
   end
+  
+    
+  def copyright_generator
+    MjmViewTool::Renderer.copyright ' Matthew J Martin', 'All Rights Reserved'
+  end
 end
