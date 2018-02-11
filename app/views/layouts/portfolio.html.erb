@@ -13,16 +13,14 @@
       <div class="nav-logo">
           <h1><%= link_to "3JMCoding", (root_path) %></h1>
       </div>
-      <%= render "shared/navbar", location: 'top'%>
+      <%= render "shared/appnavbar" %>
       </div>
-      <p class="notice"><%= notice %></p>
-      <p class="alert"><%= alert %></p>   
       
     <%= yield %>
     
       <hr>
       
-      <%= source_helper %>
+       <%= render "shared/appfoot" %>
    
   </body>
 </html>
