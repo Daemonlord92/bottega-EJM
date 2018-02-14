@@ -7,7 +7,8 @@ class BlogsController < ApplicationController
   def index
     @page_title = "My Portfolio Blog"
     #@seo_keywords = @blog.body
-    @blogs = Blog.all
+    @blogs = Blog.page(params[:page]).per(5)
+
   end
 
   # GET /blogs/1

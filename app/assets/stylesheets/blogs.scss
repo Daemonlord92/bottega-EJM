@@ -3,6 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import 'bootstrap';
 @import url('https://fonts.googleapis.com/css?family=Vollkorn+SC');
+@import 'font-awesome';
 
 body{
     font-family: 'Vollkorn SC', serif;
@@ -176,4 +177,7 @@ h6, .h6 {
 /*
  * Custom Styles
  */
+.social-links li{
+    font-size: 3em;
+}
 
