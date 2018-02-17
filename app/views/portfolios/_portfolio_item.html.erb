@@ -1,8 +1,4 @@
-
-
-    
-    <!-- example -->
-<div class="card">
+<div class="card" data-id='<%= portfolio_item.id %>'>
     
   <span><p class="card-text"><%= link_to portfolio_item.title, portfolio_show_path(portfolio_item.id) %></p></span>
   <p class="card-text"><%= portfolio_item.subtitle %></p>
