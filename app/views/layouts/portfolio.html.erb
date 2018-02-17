@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><%= @page_title %></title>
     <%= csrf_meta_tags %>
   <meta name="keywords" content="<%= @seo_keywords %> " />
@@ -10,19 +12,23 @@
   </head>
 
   <body>
-      <div class="nav-logo">
-          <h1><%= link_to "3JMCoding", (root_path) %></h1>
-      </div>
-      <%= render "shared/navbar", location: 'top'%>
-      </div>
-      <p class="notice"><%= notice %></p>
-      <p class="alert"><%= alert %></p>   
+     
+      <%= render 'shared/appnavbar' %>
+ 
+     
+      <%= render 'shared/portfolio_masthead' unless logged_in?(:site_admin) %>
+      
+
+      
       
     <%= yield %>
+            
+
+
     
       <hr>
       
-      <%= source_helper %>
+       <%= render "shared/appfoot" %>
    
   </body>
 </html>
