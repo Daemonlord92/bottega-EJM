@@ -17,5 +17,7 @@
 /yarn-error.log
 
 .byebug_history
-/config/secrets.yml
+
 /nbproject/private/
+/config/secret.yml
+.env

@@ -18,6 +18,9 @@ module ApplicationHelper
   def copyright_generator
     MjmViewTool::Renderer.copyright ' Matthew J Martin', 'All Rights Reserved'
   end
+  def photo_credit_generator
+    MjmViewTool::Renderer.photo_credit 'Paula Affatato'
+  end
 
   def nav_helper style, tag_type
 nav_links = <<NAV
