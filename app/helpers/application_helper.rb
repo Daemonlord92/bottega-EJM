@@ -29,6 +29,7 @@ nav_links = <<NAV
 <#{tag_type}><a href="#{contact_path}" class="#{style} #{active? contact_path}">Contact</a></#{tag_type}>
 <#{tag_type}><a href="#{blogs_path}" class="#{style} #{active? blogs_path}">Blog</a></#{tag_type}>
 <#{tag_type}><a href="#{portfolios_path}" class="#{style} #{active? portfolios_path}">Portfolios</a></#{tag_type}>
+<#{tag_type}><a href="#{tech_news_path}" class="#{style} #{active? tech_news_path}">Tech News</a></#{tag_type}>
 NAV
 
     nav_links.html_safe
