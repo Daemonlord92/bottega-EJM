@@ -6,8 +6,11 @@ class BlogsController < ApplicationController
   # GET /blogs.json
   def index
     @page_title = "My Portfolio Blog"
-    #@seo_keywords = @blog.body
-    @blogs = Blog.page(params[:page]).per(5)
+    if logged_in?(:site_admin)
+      @blogs = Blog.recent.page(params[:page]).per(5)
+    else
+      @blogs = Blog.published.recent.page(params[:page]).per(5)
+    end
 
   end
 
@@ -34,7 +37,7 @@ class BlogsController < ApplicationController
   # POST /blogs.json
   def create
     @blog = Blog.new(blog_params)
-
+    @blog.draft!
     respond_to do |format|
       if @blog.save
         format.html { redirect_to @blog, notice: 'Blog was successfully created.' }
