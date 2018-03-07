@@ -6,9 +6,6 @@
 @import 'font-awesome';
 @import 'gritter';
 
-body{
-    font-family: 'Vollkorn SC', serif;
-}
 /*
  * Globals
  */
@@ -20,7 +17,7 @@ body{
 }
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: 'Vollkorn SC', serif;
   color: #555;
 }
 
@@ -30,7 +27,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Vollkorn SC', serif;
   font-weight: normal;
   color: #333;
 }
@@ -181,4 +178,11 @@ h6, .h6 {
 .social-links li{
     font-size: 3em;
 }
-
+.comment-card > .card {
+  margin: 20px;
+  padding: 20px;
+}
+.comment-attribution{
+  font-size: .8em;
+  font-style: bold;
+}
