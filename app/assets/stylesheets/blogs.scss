@@ -178,7 +178,11 @@ h6, .h6 {
 .social-links li{
     font-size: 3em;
 }
-.comment-card{
+.comment-card > .card {
   margin: 20px;
   padding: 20px;
+}
+.comment-attribution{
+  font-size: .8em;
+  font-style: bold;
 }
