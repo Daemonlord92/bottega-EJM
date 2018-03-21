@@ -4,8 +4,12 @@
 @import 'bootstrap';
 @import 'jquery-ui';
 @import 'gritter';
-@import url('https://fonts.googleapis.com/css?family=Vollkorn+SC');
 
+
+@font-face{
+  font-family: 'Vollkorn SC';
+  src:font-url('VollkornSC-Regular.ttf')
+}
 
 body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
