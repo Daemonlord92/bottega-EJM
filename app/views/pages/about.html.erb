@@ -1,12 +1,34 @@
-<div class="row about-container">
-	<div class="col-md-4">
-		<%= image_tag 'IMG_20180220_091521.jpg', width: 300, alt: 'Profile Picture' %>
-	</div>
-	<div class="col-md-1"></div>
-	<div class="col-md-7">
-		<h1 class="cover-heading">About This Programmer</h1>
-		<p class="lead">My name is Matthew Jeshua Martin. Born in Pasco, WA but raised in the midnight sun of Anchorage, AK</p>
-		<p class='lead'>I started programming as an interest to learn Ethical Hacking! Started with Teaching myself python with help from resource's like <%= link_to 'Udemy', "https://www.udemy.com" %>, <%= link_to 'FreeCodeCamp', "https://www.freecodecamp.org" %>,and <%= link_to 'Codecademy', "https://www.codecademy.com" %></p>
-		<p class="lead">Then seeing post on facebook, with different Programming Bootcamps!,like <%= link_to 'Bottega.Tech', 'https://bottega.tech/' %>, after making contact with one of their Teaching Assistance. I'm now here to Professionlly develop web applications</p>
+
+
+<div class="app-card-container">
+	<div class="card">
+		<div class="row about-container">
+			<div class="col-md-4">
+				<%= image_tag 'IMG_20180220_091521.jpg', width: 300, alt: 'Profile Picture' %>
+			</div>
+			<div class="col-md-1"></div>
+			<div class="col-md-7">
+				<h1 class="cover-heading">About This Programmer</h1>
+				<p class="lead">My name is Matthew Jeshua Martin. Born in Pasco, WA but raised in the midnight sun of Anchorage, AK</p>
+				<p class='lead'>I started programming as an interest to learn Ethical Hacking! Started with Teaching myself python with help from resource's like <%= link_to 'Udemy', "https://www.udemy.com" %>, <%= link_to 'FreeCodeCamp', "https://www.freecodecamp.org" %>,and <%= link_to 'Codecademy', "https://www.codecademy.com" %></p>
+				<p class="lead">Then seeing post on facebook, with different Programming Bootcamps!,like <%= link_to 'Bottega.Tech', 'https://bottega.tech/' %>, after making contact with one of their Teaching Assistance. I'm now here to Professionlly develop web applications</p>
+				<button
+					class="btn btn-primary"
+            		type="button"
+            		data-toggle="collapse"
+            		data-target="#education"
+            		aria-expanded="false"
+            		aria-controler="education"
+				>
+					Education
+				</button>
+				<div class="collapse" id="education">
+		            <div class="card card-block">
+		             	Bottega.tech
+		            </div>
+		          </div>
+				</div>
+		</div>		
+
 	</div>
 </div>

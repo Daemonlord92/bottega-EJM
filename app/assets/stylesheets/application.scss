@@ -1,11 +1,14 @@
 
 @import 'bootstrap';
 @import 'gritter';
-@import url('https://fonts.googleapis.com/css?family=Vollkorn+SC');
+
 /*
  * Globals
  */
-
+@font-face{
+  font-family: 'Vollkorn SC';
+  src:font-url('VollkornSC-Regular.ttf')
+}
 /* Links */
 a,
 a:focus,
@@ -165,4 +168,9 @@ body {
 
 .tech-news > .card{
   padding: 30px;
+}
+
+#education .card-block {
+  margin-top:5px;
+  margin-bottom:5px;
 }
