@@ -120,6 +120,7 @@ body {
  */
 .card-block {
     color: black;
+    background: rgba(white, 0.2);
 }
 .auth-links a{
     color: black !important;
@@ -173,4 +174,7 @@ body {
 #education .card-block {
   margin-top:5px;
   margin-bottom:5px;
+}
+.btn-trans {
+  background-color: rgba(black, 0.4);
 }
