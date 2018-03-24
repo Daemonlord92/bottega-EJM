@@ -6,21 +6,21 @@
  * Globals
  */
 @font-face{
-  font-family: 'Vollkorn SC';
-  src:font-url('VollkornSC-Regular.ttf')
+  font-family: 'Lato';
+  src:font-url('Lato-Regular.ttf')
 }
 /* Links */
 a,
 a:focus,
 a:hover {
-  color: #ba0303;
+  color: black;
 }
 
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: #ba0303;
+  color: black;
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #fff;
   border: .05rem solid #fff;
@@ -33,7 +33,7 @@ a:hover {
 
 html,
 body {
-  font-family: 'Vollkorn SC';
+  font-family: 'Lato';
   height: 100%;
 }
 
@@ -44,7 +44,7 @@ body {
   -ms-flex-pack: center;
   -webkit-box-pack: center;
   justify-content: center;
-  color: #ba0303;
+  color: black;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
@@ -68,7 +68,7 @@ body {
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 700;
-  color: #ba0303;
+  color: black;
   background-color: transparent;
   border-bottom: .25rem solid transparent;
 }
@@ -83,8 +83,8 @@ body {
 }
 
 .nav-masthead .active {
-  color: #ba0303;
-  border-bottom-color: #ba0303;
+  color: black;
+  border-bottom-color: black;
 }
 
 @media (min-width: 48em) {
@@ -149,7 +149,7 @@ body {
   z-index: -100;
   -webkit-transform:translateX(-50) translate(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('DSC_0433.JPG') no-repeat;
+  background: image-url('DSC_0149.JPG') no-repeat;
   background-size: cover;
 }
 

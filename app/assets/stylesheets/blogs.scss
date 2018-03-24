@@ -10,8 +10,8 @@
  * Globals
  */
 @font-face{
-  font-family: 'Vollkorn SC';
-  src:font-url('VollkornSC-Regular.ttf')
+  font-family: 'Lato';
+  src:font-url('Lato-Regular.ttf')
 }
 @media (min-width: 48em) {
   html {
@@ -20,7 +20,7 @@
 }
 
 body {
-    font-family: 'Vollkorn SC', serif;
+    font-family: 'Lato', serif;
   color: #555;
 }
 
@@ -30,7 +30,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: 'Vollkorn SC', serif;
+  font-family: 'Lato', serif;
   font-weight: normal;
   color: #333;
 }
