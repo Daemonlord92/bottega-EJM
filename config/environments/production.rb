@@ -88,6 +88,6 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
-  config.action_cable.allowed_request_origins = ['https://devcamp-portfolio.herokuapp.com', 'http://devcamp-portfolio.herokuapp.com']
-  config.action_cable.url = "wss://devcamp-portfolio.herokuapp.com/cable"
+  config.action_cable.allowed_request_origins = ['https://ejm-developer.herokuapp.com', 'http://ejm-developer.herokuapp.com']
+  config.action_cable.url = "wss://ejm-developer.herokuapp.com/cable"
 end
